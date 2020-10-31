@@ -37,12 +37,48 @@ const constants = [
   ['base32z', 'h', rfc4648(5), 'ybndrfg8ejkmcpqxot1uwisza345h769'],
   ['base36', 'k', baseX, '0123456789abcdefghijklmnopqrstuvwxyz'],
   ['base36upper', 'K', baseX, '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ'],
-  ['base58btc', 'z', baseX, '123456789ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz'],
-  ['base58flickr', 'Z', baseX, '123456789abcdefghijkmnopqrstuvwxyzABCDEFGHJKLMNPQRSTUVWXYZ'],
-  ['base64', 'm', rfc4648(6), 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/'],
-  ['base64pad', 'M', rfc4648(6), 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/='],
-  ['base64url', 'u', rfc4648(6), 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-_'],
-  ['base64urlpad', 'U', rfc4648(6), 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-_=']
+  [
+    'base58btc',
+    'z',
+    baseX,
+    '123456789ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz'
+  ],
+  [
+    'base58flickr',
+    'Z',
+    baseX,
+    '123456789abcdefghijkmnopqrstuvwxyzABCDEFGHJKLMNPQRSTUVWXYZ'
+  ],
+  [
+    'base64',
+    'm',
+    rfc4648(6),
+    'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/'
+  ],
+  [
+    'base64pad',
+    'M',
+    rfc4648(6),
+    'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/='
+  ],
+  [
+    'base64url',
+    'u',
+    rfc4648(6),
+    'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-_'
+  ],
+  [
+    'base64urlpad',
+    'U',
+    rfc4648(6),
+    'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-_='
+  ],
+  [
+    'base256unismush',
+    'i',
+    rfc4648(8),
+    'IJfijlrstºÌÍÎÏìíîïĨĩĪīĬĭĮįİıĴĵĺļľŀłŕŗřśŝşšţŧſƖƗƚƫƭǁǃǏǐǰȈȉȊȋȑȓșțɉḟṡṫẛʰʱʲʳʴʵʶʸʹʻʼʽʾʿˀˁ˂˃˄˅ˆˇˈˊˋˌˍˎˏːˑ˒˓˞˟ˠˡˢˣˤˬ˯˰˱˲˳˴˷˸˹˺˻˼˽˾ͱͿΐΙΪίιϊϳἰἱἲἳἴἵἶἷὶίῐῑῒΐῖῗῘῙІЇЈгзѓѕіїјґғҙӀӟꜣꝇꝉꝩꝲꝼꞁꞄꞅ꞉꞊Ꞌꞌɨɩɭɺɽɿʇʈᴉᴊᴬᴮᴯᴰᴱᴲᴳᴴᴵᴶᴷᴸᴹᴺᴻᴼᴽᴾᴿᵀᵁᵃᵄᵅᵇᵈᵉᵊᵋᵌᵍᵎᵏᵑᵒᵓᵔᵕᵖᵗᵘᵙᵛᵜᵝᵞᵟᵡᵢᵣᵤᵥᵦᵧᵨᵪᵮᵲᵳᵵᵻᵼﺍﻩﺁﺓءآ'
+  ]
 ]
 
 const names = constants.reduce((prev, tupple) => {

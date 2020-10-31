@@ -1,6 +1,6 @@
 {
-  "name": "multibase",
-  "version": "3.0.1",
+  "name": "@jimpick/multibase",
+  "version": "3.0.1-1",
   "description": "JavaScript implementation of the multibase specification",
   "keywords": [
     "IPFS",

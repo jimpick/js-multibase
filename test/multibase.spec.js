@@ -80,7 +80,15 @@ const supportedBases = [
   ['base64urlpad', 'foob', 'UZm9vYg=='],
   ['base64urlpad', 'fooba', 'UZm9vYmE='],
   ['base64urlpad', 'foobar', 'UZm9vYmFy'],
-  ['base64urlpad', '÷ïÿ🥰÷ïÿ😎🥶🤯', 'Uw7fDr8O_8J-lsMO3w6_Dv_CfmI7wn6W28J-krw==']
+  ['base64urlpad', '÷ïÿ🥰÷ïÿ😎🥶🤯', 'Uw7fDr8O_8J-lsMO3w6_Dv_CfmI7wn6W28J-krw=='],
+
+  ['base256unismush', 'f', 'i˟'],
+  ['base256unismush', 'fo', 'i˟˱'],
+  ['base256unismush', 'foo', 'i˟˱˱'],
+  ['base256unismush', 'foob', 'i˟˱˱ˑ'],
+  ['base256unismush', 'fooba', 'i˟˱˱ˑː'],
+  ['base256unismush', 'foobar', 'i˟˱˱ˑː˴'],
+  ['base256unismush', '÷ïÿ🥰÷ïÿ😎🥶🤯', 'iᴴɿᴴ꞊ᴴᴰᵦјꜣꞋᴴɿᴴ꞊ᴴᴰᵦјЈῐᵦјꜣɽᵦјӟ꞊']
 ]
 
 const they = (label, def) => {
